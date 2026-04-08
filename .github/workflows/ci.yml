@@ -11,7 +11,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v8
         with:
-          java-version: '25'
+          java-version: '8'
           distribution: 'temurin'
 
       - name: Build with Maven
